@@ -20,10 +20,10 @@ Dr. Artan and I have worked on preprocessing multiple channels of data. We have 
 ## Additional Materials
 
 - [Google Cloud VM with GPU Setup](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/Google%20Cloud%20Setup.md)
-- papers:
+- [papers:](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers)
    - [Paper Summary](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/PapersSummary.csv)
-   - [sleep](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/sleep)
-   - [other](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/etc)
+   - [Sleep](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/sleep)
+   - [Other](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/etc)
 -  [Grant Proposal](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/NYIT%20Undergraduate%20Research%20and%20Entrepreneurs%20Program%20Mini%20Grant%20Proposal%20(dragged).pdf)
 - [Deep Learning Presentation](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/presentation)
 
