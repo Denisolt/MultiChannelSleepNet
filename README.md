@@ -15,10 +15,18 @@ In order to perform classification, there shall be specific features that the al
 ## Our approach
 
 Dr. Artan and I have worked on preprocessing multiple channels of data. We have combined 2 channels of EEG (Fpz-Cz and Pz-Oz), EOG, EMG and respiratory data. They were combined into a multidimensional array or a tensor. Where each layer represented different channels, preserving the independence of the data in each channel, although combining all of the data together for sleep stage classification. The network that was created was based on the DeepSleepNet by Supratak in 2017 to mimic their representation learning. The main difference between their work and ours is that they used only one channel of the EEG data. Our architecture is a network consisting of 2 main parts: representation learning and classification. First, we extract features using CNN and then perform classification using RNN. The Representation Learning is divided into 2 parts: the first one is set to half of the sampling rate and stride size to 1/16 to detect patterns in the signal, the second one is set to 4 times of the sampling rate and stride to half of the sampling rate to better capture the frequency components of the signal. Below is the image of the network:
+![alt text](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/images/diagram.png?raw=true)
 
 ## Additional Materials
 
-- ​
+- [Google Cloud VM with GPU Setup](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/Google%20Cloud%20Setup.md)
+- papers:
+   - [Paper Summary](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/PapersSummary.csv)
+   - [sleep](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/sleep)
+   - [other](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/etc)
+-  [Grant Proposal](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/NYIT%20Undergraduate%20Research%20and%20Entrepreneurs%20Program%20Mini%20Grant%20Proposal%20(dragged).pdf)
+- [Deep Learning Presentation](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/presentation)
+
 
 ## Environment ##
 
