@@ -10,7 +10,7 @@ There has been interesting work done in creating a novel approach to work with E
 
 ## Architecture of the Network
 
-In order to perform classification, there shall be specific features that the algorithm has to look for. In most of the cases, the features are defined by the researchers or experts in the field. Research by Supratak in 2017 has tried Representation Learning. It is a deep learning technique for feature extraction. The rest of researchers vary on either using RNN or CNN or both. There is only one research that looked into Multivariate Networks with multiple inputs. This was done by Chambon in 2017. They have created a 2 Convolutional Networks, one for EEG/EOG data, and the second one for EMG. The results of the network were then combined to give a high result of 84% accuracy. The approach with the highest accuracy used a simple Convolutional Neural Network with single raw EEG data input.![diagram](/Users/admin/Desktop/research/MultiChannelSleepNet/additional materials/images/diagram.png)
+In order to perform classification, there shall be specific features that the algorithm has to look for. In most of the cases, the features are defined by the researchers or experts in the field. Research by Supratak in 2017 has tried Representation Learning. It is a deep learning technique for feature extraction. The rest of researchers vary on either using RNN or CNN or both. There is only one research that looked into Multivariate Networks with multiple inputs. This was done by Chambon in 2017. They have created a 2 Convolutional Networks, one for EEG/EOG data, and the second one for EMG. The results of the network were then combined to give a high result of 84% accuracy. The approach with the highest accuracy used a simple Convolutional Neural Network with single raw EEG data input.
 
 ## Our approach
 
@@ -26,7 +26,7 @@ Dr. Artan and I have worked on preprocessing multiple channels of data. We have 
    - [Other](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/etc)
 -  [Grant Proposal](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/NYIT%20Undergraduate%20Research%20and%20Entrepreneurs%20Program%20Mini%20Grant%20Proposal%20(dragged).pdf)
 - [Deep Learning Presentation](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/presentation)
-
+- [Data](https://physionet.org/physiobank/database/capslpdb/)
 
 ## Environment ##
 
