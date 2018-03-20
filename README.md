@@ -26,7 +26,7 @@ Dr. Artan and I have worked on preprocessing multiple channels of data. We have 
    - [Other](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/papers/etc)
 -  [Grant Proposal](https://github.com/Denisolt/MultiChannelSleepNet/blob/master/additional%20materials/NYIT%20Undergraduate%20Research%20and%20Entrepreneurs%20Program%20Mini%20Grant%20Proposal%20(dragged).pdf)
 - [Deep Learning Presentation](https://github.com/Denisolt/MultiChannelSleepNet/tree/master/additional%20materials/presentation)
-- [Data](https://physionet.org/physiobank/database/capslpdb/)
+- [Data](https://physionet.org/pn4/sleep-edfx/)
 
 ## Environment ##
 
