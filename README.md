@@ -76,3 +76,4 @@ The output will be stored in numpy files.
 Run this script to show a summary of the performance of our AlexandersSleep compared with the state-of-the-art hand-engineering approaches. The performance metrics are overall accuracy, per-class F1-score, and macro F1-score.
 
     python summary.py --data_dir output
+
