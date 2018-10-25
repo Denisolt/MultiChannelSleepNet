@@ -1,6 +1,5 @@
 # MultiChannelSleepNet
 
-## Authors: Denisolt Shakhbulatov, Arshit Arora, Dr. Nabi Sertac Artan
 
 The objective of the research is to improve the accuracy of the sleep stage classification by using multiple channels of different EEG, EOG, EMG, and respiratory signals and using popular Deep Learning approaches. Most of the time researchers focus on EEG data only, there are only a few papers that have combined different types of channels together.
 
