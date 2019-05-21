@@ -66,14 +66,6 @@ Run `nvidia-smi` to check if drivers are installed properly
 
 First you need to download the **cuDNN** on your local machine and transfer it to your Google Cloud instance. 
 
-I have mine uploaded to Google Cloud Storage, so:
-
-```bash
-gsutil cp gs://deep-research/*.gz .
-```
-
-This will download the cuDNN file from the Google Storage. 
-
 Once it is downloaded, we need to uncompress the file and copy the cuDNN library to Cuda:
 
 ```bash
@@ -89,22 +81,11 @@ sudo chmod a+r $CUDA_HOME/lib64/libcudnn*
 
 ### Cloning the repo and downloading the data:
 
-Move to home folder and clone the repo:
+Clone the repo:
 
 ```bash
 cd /home/dshakhbu
 git clone -b Final https://github.com/Denisolt/DeepLearning_research.git
-```
-
-Now delete the data in the repo with old data, create a new folder and download the data from Google Cloud Storage:
-
-```bash
-cd DeepLearning_research
-cd data
-rm -r output
-mkdir output
-cd mkdir
-gsutil cp gs://deep-research/data*.npz .
 ```
 
 ### TensorDB:
@@ -131,22 +112,13 @@ pip install -r req.txt
 
 In first SSH window:
 
-Start MongoDB with a specific port:
+Start MongoDB:
 
 ```
 sudo mongod —port 27018
 ```
 
 Open a new SSH window.
-
-Now a little problem, since my `batch_train.sh` is wrong:
-
-```bash
-rm /home/dshakhbu/DeepLearning_research-master/batch_train.sh
-cd /home/dshakhbu
-git clone https://github.com/akaraspt/deepsleepnet.git
-mv deepsleepnet/batch_train.sh /home/dshakhbu/DeepLearning_research
-```
 
 Run the command:
 
